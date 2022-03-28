@@ -87,6 +87,6 @@ goto EXIT
 
 :EXIT
 if exist %TMP%\senseTmp.txt del %TMP%\senseTmp.txt
-pause
+echo Offboarding Complete
 EXIT /B %errorCode%
 
